@@ -8,22 +8,26 @@
 import UIKit
 
 class Utilities {
-    static func customTextField(_ textfield: UITextField) {
-        textfield.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
-//        textfield.layer.cornerRadius = 10.0
-        textfield.tintColor = UIColor.black
-    }
-    
-    static func blueColorButton(_ button: UIButton) {
+    static func AcceptBotton(_ button: UIButton) {
         button.backgroundColor = UIColor(red: 5/255, green: 134/255, blue: 1, alpha: 1)
         button.layer.cornerRadius = 20.0
         button.tintColor = UIColor.white
     }
     
-    static func noneColorButton(_ button: UIButton) {
+    static func CancelButton(_ button: UIButton) {
         button.layer.borderWidth = 2
         button.layer.borderColor = UIColor.black.cgColor
         button.layer.cornerRadius = 20.0
         button.tintColor = UIColor.black
+    }
+    static func iconTextField(_ textField: UITextField, _ image: UIImage) {
+        let iconView = UIImageView(frame:
+            CGRect(x: 10, y: 5, width: 20, height: 20))
+        iconView.image = image
+        let iconContainerView: UIView = UIView(frame:
+            CGRect(x: 20, y: 0, width: 30, height: 30))
+        iconContainerView.addSubview(iconView)
+        textField.leftView = iconContainerView
+        textField.leftViewMode = .always
     }
 }
