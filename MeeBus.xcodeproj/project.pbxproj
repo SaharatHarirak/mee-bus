@@ -3,25 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B0CC2ED23FB9C2A009DEB30 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */; };
+		3B0CC2EE23FB9C2A009DEB30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */; };
+		3B0CC2EF23FB9C2A009DEB30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EC23FB9C2A009DEB30 /* LoginViewController.swift */; };
+		3B0CC2F123FB9C51009DEB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CC2F023FB9C51009DEB30 /* Main.storyboard */; };
+		3B0CC2F323FB9C60009DEB30 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2F223FB9C60009DEB30 /* Utilities.swift */; };
 		3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */; };
-		3BBABBDA23FAFA7C0004A9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABBD923FAFA7C0004A9E0 /* ViewController.swift */; };
-		3BBABBDD23FAFA7C0004A9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABBDB23FAFA7C0004A9E0 /* Main.storyboard */; };
 		3BBABBDF23FAFA7D0004A9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */; };
 		3BBABBE223FAFA7D0004A9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABBE023FAFA7D0004A9E0 /* LaunchScreen.storyboard */; };
+		BC2F83AED127B150268586FE /* Pods_MeeBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C4A3BE70283847981F78E4 /* Pods_MeeBus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3B0CC2EC23FB9C2A009DEB30 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B0CC2F023FB9C51009DEB30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3B0CC2F223FB9C60009DEB30 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3BBABBD423FAFA7C0004A9E0 /* MeeBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeeBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BBABBD923FAFA7C0004A9E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3BBABBDC23FAFA7C0004A9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBABBE123FAFA7D0004A9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BBABBE323FAFA7D0004A9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C4A3BE70283847981F78E4 /* Pods_MeeBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeeBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6B65DC51915F599F30B664 /* Pods-MeeBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeBus.debug.xcconfig"; path = "Target Support Files/Pods-MeeBus/Pods-MeeBus.debug.xcconfig"; sourceTree = "<group>"; };
+		DD81151ECF073E24A2A0977E /* Pods-MeeBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeBus.release.xcconfig"; path = "Target Support Files/Pods-MeeBus/Pods-MeeBus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2F83AED127B150268586FE /* Pods_MeeBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				3BBABBD623FAFA7C0004A9E0 /* MeeBus */,
 				3BBABBD523FAFA7C0004A9E0 /* Products */,
+				42ED848A86DE01B1DB662C4B /* Pods */,
+				AA90A8A26D1577187E975001 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,50 @@
 		3BBABBD623FAFA7C0004A9E0 /* MeeBus */ = {
 			isa = PBXGroup;
 			children = (
+				3BBABBEA23FAFA910004A9E0 /* Helpers */,
+				3BBABBE923FAFA850004A9E0 /* Controllers */,
 				3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */,
-				3BBABBD923FAFA7C0004A9E0 /* ViewController.swift */,
-				3BBABBDB23FAFA7C0004A9E0 /* Main.storyboard */,
+				3B0CC2F023FB9C51009DEB30 /* Main.storyboard */,
 				3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */,
 				3BBABBE023FAFA7D0004A9E0 /* LaunchScreen.storyboard */,
 				3BBABBE323FAFA7D0004A9E0 /* Info.plist */,
 			);
 			path = MeeBus;
+			sourceTree = "<group>";
+		};
+		3BBABBE923FAFA850004A9E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */,
+				3B0CC2EC23FB9C2A009DEB30 /* LoginViewController.swift */,
+				3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BBABBEA23FAFA910004A9E0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CC2F223FB9C60009DEB30 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		42ED848A86DE01B1DB662C4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC6B65DC51915F599F30B664 /* Pods-MeeBus.debug.xcconfig */,
+				DD81151ECF073E24A2A0977E /* Pods-MeeBus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA90A8A26D1577187E975001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56C4A3BE70283847981F78E4 /* Pods_MeeBus.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BBABBE623FAFA7D0004A9E0 /* Build configuration list for PBXNativeTarget "MeeBus" */;
 			buildPhases = (
+				88E4FB06DC86652F97BC410F /* [CP] Check Pods Manifest.lock */,
 				3BBABBD023FAFA7C0004A9E0 /* Sources */,
 				3BBABBD123FAFA7C0004A9E0 /* Frameworks */,
 				3BBABBD223FAFA7C0004A9E0 /* Resources */,
+				CDC8A8B97C050F4D74F01AAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +175,70 @@
 			files = (
 				3BBABBE223FAFA7D0004A9E0 /* LaunchScreen.storyboard in Resources */,
 				3BBABBDF23FAFA7D0004A9E0 /* Assets.xcassets in Resources */,
-				3BBABBDD23FAFA7C0004A9E0 /* Main.storyboard in Resources */,
+				3B0CC2F123FB9C51009DEB30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88E4FB06DC86652F97BC410F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeeBus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC8A8B97C050F4D74F01AAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeeBus/Pods-MeeBus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeeBus/Pods-MeeBus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeeBus/Pods-MeeBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3BBABBD023FAFA7C0004A9E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBABBDA23FAFA7C0004A9E0 /* ViewController.swift in Sources */,
+				3B0CC2F323FB9C60009DEB30 /* Utilities.swift in Sources */,
+				3B0CC2ED23FB9C2A009DEB30 /* SignUpViewController.swift in Sources */,
 				3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */,
+				3B0CC2EF23FB9C2A009DEB30 /* LoginViewController.swift in Sources */,
+				3B0CC2EE23FB9C2A009DEB30 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3BBABBDB23FAFA7C0004A9E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BBABBDC23FAFA7C0004A9E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3BBABBE023FAFA7D0004A9E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +368,7 @@
 		};
 		3BBABBE723FAFA7D0004A9E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6B65DC51915F599F30B664 /* Pods-MeeBus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +386,7 @@
 		};
 		3BBABBE823FAFA7D0004A9E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD81151ECF073E24A2A0977E /* Pods-MeeBus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
