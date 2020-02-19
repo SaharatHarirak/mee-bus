@@ -6,5 +6,5 @@ target 'MeeBus' do
   use_frameworks!
 
   # Pods for MeeBus
-    pod 'Firebase'
+#    pod 'Firebase'
 end

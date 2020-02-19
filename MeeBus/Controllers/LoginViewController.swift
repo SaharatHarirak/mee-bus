@@ -8,7 +8,6 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    
 
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
@@ -16,6 +15,8 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         Utilities.iconTextField(phoneNumberTextField, #imageLiteral(resourceName: "icon-phone"))
         Utilities.AcceptBotton(loginButton)
+        
+        
     }
 
 }
