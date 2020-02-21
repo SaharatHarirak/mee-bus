@@ -8,15 +8,15 @@
 import UIKit
 
 class Utilities {
-    static func AcceptBotton(_ button: UIButton) {
+    static func BlueButton(_ button: UIButton) {
         button.backgroundColor = UIColor(red: 5/255, green: 134/255, blue: 1, alpha: 1)
         button.layer.cornerRadius = 20.0
         button.tintColor = UIColor.white
     }
     
-    static func CancelButton(_ button: UIButton) {
+    static func NoBackgroundButton(_ button: UIButton) {
         button.layer.borderWidth = 2
-        button.layer.borderColor = UIColor.black.cgColor
+        button.layer.borderColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1).cgColor
         button.layer.cornerRadius = 20.0
         button.tintColor = UIColor.black
     }
@@ -29,5 +29,10 @@ class Utilities {
         iconContainerView.addSubview(iconView)
         textField.leftView = iconContainerView
         textField.leftViewMode = .always
+    }
+    
+    static func resizeImage(_ image: UIImageView, _ height: Int, _ width: Int) {
+        let frame = CGRect(x: 10, y: 10, width: width, height: height)
+        image.frame = frame
     }
 }

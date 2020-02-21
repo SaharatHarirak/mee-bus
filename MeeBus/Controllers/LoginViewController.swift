@@ -8,15 +8,13 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
-    @IBOutlet weak var phoneNumberTextField: UITextField!
+    
+    @IBOutlet weak var logoImage: UIImageView!
+    @IBOutlet weak var registerButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        Utilities.iconTextField(phoneNumberTextField, #imageLiteral(resourceName: "icon-phone"))
-        Utilities.AcceptBotton(loginButton)
-        
-        
+        Utilities.BlueButton(registerButton)
+        Utilities.NoBackgroundButton(loginButton)
     }
-
 }
