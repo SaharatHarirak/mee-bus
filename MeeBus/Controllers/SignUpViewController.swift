@@ -11,7 +11,8 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        Utilities.BlueButton(signUpButton)
+        Utilities.DarkBlueButton(signUpButton)
+        
     }
 
     

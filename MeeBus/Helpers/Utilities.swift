@@ -8,16 +8,22 @@
 import UIKit
 
 class Utilities {
-    static func BlueButton(_ button: UIButton) {
-        button.backgroundColor = UIColor(red: 5/255, green: 134/255, blue: 1, alpha: 1)
-        button.layer.cornerRadius = 20.0
+    static func YellowButton(_ button: UIButton) {
+        button.backgroundColor = UIColor(red: 1, green: 217/255, blue: 37/255, alpha: 1)
+        button.layer.cornerRadius = 7.5
+        button.tintColor = UIColor.white
+    }
+    
+    static func DarkBlueButton(_ button: UIButton) {
+        button.backgroundColor = UIColor(red: 23/255, green: 56/255, blue: 100/255, alpha: 1)
+        button.layer.cornerRadius = 7.5
         button.tintColor = UIColor.white
     }
     
     static func NoBackgroundButton(_ button: UIButton) {
         button.layer.borderWidth = 2
         button.layer.borderColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1).cgColor
-        button.layer.cornerRadius = 20.0
+        button.layer.cornerRadius = 7.5
         button.tintColor = UIColor.black
     }
     static func iconTextField(_ textField: UITextField, _ image: UIImage) {
