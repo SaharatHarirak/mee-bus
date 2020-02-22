@@ -20,7 +20,6 @@
 		3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */; };
 		3BBABBDF23FAFA7D0004A9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */; };
 		3BBABBE223FAFA7D0004A9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABBE023FAFA7D0004A9E0 /* LaunchScreen.storyboard */; };
-		BC2F83AED127B150268586FE /* Pods_MeeBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C4A3BE70283847981F78E4 /* Pods_MeeBus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,7 @@
 		3B701AFF240048B700F60231 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3B701B0024004FAD00F60231 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		3B701B02240056A400F60231 /* LanguageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageService.swift; sourceTree = "<group>"; };
-		3BBABBD423FAFA7C0004A9E0 /* MeeBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeeBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBABBD423FAFA7C0004A9E0 /* MeeVan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeeVan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBABBE123FAFA7D0004A9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2F83AED127B150268586FE /* Pods_MeeBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +59,7 @@
 		3BBABBCB23FAFA7C0004A9E0 = {
 			isa = PBXGroup;
 			children = (
-				3BBABBD623FAFA7C0004A9E0 /* MeeBus */,
+				3BBABBD623FAFA7C0004A9E0 /* MeeVan */,
 				3BBABBD523FAFA7C0004A9E0 /* Products */,
 				42ED848A86DE01B1DB662C4B /* Pods */,
 				AA90A8A26D1577187E975001 /* Frameworks */,
@@ -71,12 +69,12 @@
 		3BBABBD523FAFA7C0004A9E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BBABBD423FAFA7C0004A9E0 /* MeeBus.app */,
+				3BBABBD423FAFA7C0004A9E0 /* MeeVan.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BBABBD623FAFA7C0004A9E0 /* MeeBus */ = {
+		3BBABBD623FAFA7C0004A9E0 /* MeeVan */ = {
 			isa = PBXGroup;
 			children = (
 				3BBABBEA23FAFA910004A9E0 /* Helpers */,
@@ -88,7 +86,7 @@
 				3BBABBE323FAFA7D0004A9E0 /* Info.plist */,
 				3B701AFE240048B200F60231 /* Localizable.strings */,
 			);
-			path = MeeBus;
+			path = MeeVan;
 			sourceTree = "<group>";
 		};
 		3BBABBE923FAFA850004A9E0 /* Controllers */ = {
@@ -133,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BBABBD323FAFA7C0004A9E0 /* MeeBus */ = {
+		3BBABBD323FAFA7C0004A9E0 /* MeeVan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BBABBE623FAFA7D0004A9E0 /* Build configuration list for PBXNativeTarget "MeeBus" */;
+			buildConfigurationList = 3BBABBE623FAFA7D0004A9E0 /* Build configuration list for PBXNativeTarget "MeeVan" */;
 			buildPhases = (
 				88E4FB06DC86652F97BC410F /* [CP] Check Pods Manifest.lock */,
 				3BBABBD023FAFA7C0004A9E0 /* Sources */,
@@ -146,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = MeeBus;
+			name = MeeVan;
 			productName = MeeBus;
-			productReference = 3BBABBD423FAFA7C0004A9E0 /* MeeBus.app */;
+			productReference = 3BBABBD423FAFA7C0004A9E0 /* MeeVan.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BBABBCF23FAFA7C0004A9E0 /* Build configuration list for PBXProject "MeeBus" */;
+			buildConfigurationList = 3BBABBCF23FAFA7C0004A9E0 /* Build configuration list for PBXProject "MeeVan" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BBABBD323FAFA7C0004A9E0 /* MeeBus */,
+				3BBABBD323FAFA7C0004A9E0 /* MeeVan */,
 			);
 		};
 /* End PBXProject section */
@@ -390,13 +388,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LD6JP3X2T;
-				INFOPLIST_FILE = MeeBus/Info.plist;
+				INFOPLIST_FILE = MeeVan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = meebus.MeeBus;
+				PRODUCT_BUNDLE_IDENTIFIER = meevan.MeeVan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,13 +408,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LD6JP3X2T;
-				INFOPLIST_FILE = MeeBus/Info.plist;
+				INFOPLIST_FILE = MeeVan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = meebus.MeeBus;
+				PRODUCT_BUNDLE_IDENTIFIER = meevan.MeeVan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,7 +424,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BBABBCF23FAFA7C0004A9E0 /* Build configuration list for PBXProject "MeeBus" */ = {
+		3BBABBCF23FAFA7C0004A9E0 /* Build configuration list for PBXProject "MeeVan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BBABBE423FAFA7D0004A9E0 /* Debug */,
@@ -435,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BBABBE623FAFA7D0004A9E0 /* Build configuration list for PBXNativeTarget "MeeBus" */ = {
+		3BBABBE623FAFA7D0004A9E0 /* Build configuration list for PBXNativeTarget "MeeVan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BBABBE723FAFA7D0004A9E0 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MeeBus.xcodeproj">
+      location = "self:/Users/cherchamp/Desktop/Works/MeeBus_copy/MeeVan.xcodeproj">
    </FileRef>
 </Workspace>

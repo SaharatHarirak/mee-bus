@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BBABBD323FAFA7C0004A9E0"
-               BuildableName = "MeeBus.app"
-               BlueprintName = "MeeBus"
-               ReferencedContainer = "container:MeeBus.xcodeproj">
+               BuildableName = "MeeVan.app"
+               BlueprintName = "MeeVan"
+               ReferencedContainer = "container:MeeVan.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BBABBD323FAFA7C0004A9E0"
-            BuildableName = "MeeBus.app"
-            BlueprintName = "MeeBus"
-            ReferencedContainer = "container:MeeBus.xcodeproj">
+            BuildableName = "MeeVan.app"
+            BlueprintName = "MeeVan"
+            ReferencedContainer = "container:MeeVan.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BBABBD323FAFA7C0004A9E0"
-            BuildableName = "MeeBus.app"
-            BlueprintName = "MeeBus"
-            ReferencedContainer = "container:MeeBus.xcodeproj">
+            BuildableName = "MeeVan.app"
+            BlueprintName = "MeeVan"
+            ReferencedContainer = "container:MeeVan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BBABBD323FAFA7C0004A9E0"
-            BuildableName = "MeeBus.app"
-            BlueprintName = "MeeBus"
-            ReferencedContainer = "container:MeeBus.xcodeproj">
+            BuildableName = "MeeVan.app"
+            BlueprintName = "MeeVan"
+            ReferencedContainer = "container:MeeVan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
