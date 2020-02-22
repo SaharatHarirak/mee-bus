@@ -14,8 +14,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var phoneNumberTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        Utilities.YellowButton(loginButton)
-        Utilities.iconTextField(phoneNumberTextField, #imageLiteral(resourceName: "icon-phone"))
+        IconTextField.iconTextField(phoneNumberTextField, #imageLiteral(resourceName: "icon-phone"))
     }
     
     @IBAction func cancelButtonDidTap(_ sender: Any) {

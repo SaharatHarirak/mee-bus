@@ -12,7 +12,7 @@
         <!--First Page View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstPageViewController" customModule="MeeBus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FirstPageViewController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,7 +58,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="hOP-kk-Cyh">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRX-Gx-f31">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRX-Gx-f31" customClass="YellowButton" customModule="MeeVan" customModuleProvider="target">
                                                 <rect key="frame" x="40" y="40" width="334" height="40"/>
                                                 <state key="normal" title="Register"/>
                                                 <connections>
@@ -71,7 +71,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSj-dE-x4N">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSj-dE-x4N" customClass="DarkBlueButton" customModule="MeeVan" customModuleProvider="target">
                                                 <rect key="frame" x="40" y="160.5" width="334" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="pqy-js-EPU"/>
@@ -120,7 +120,7 @@
         <!--Login View Controller-->
         <scene sceneID="Z06-ze-w1h">
             <objects>
-                <viewController id="2yz-b9-nhn" customClass="LoginViewController" customModule="MeeBus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2yz-b9-nhn" customClass="LoginViewController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsc-07-jkA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,7 +137,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xox-yg-NQ2">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xox-yg-NQ2" customClass="YellowButton" customModule="MeeVan" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="120" width="334" height="40"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
@@ -177,7 +177,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="kvV-by-gNr">
             <objects>
-                <viewController id="I7R-Nn-59x" customClass="SignUpViewController" customModule="MeeBus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I7R-Nn-59x" customClass="SignUpViewController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D1T-dM-Vai">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,7 +203,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5K-Yj-rof">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5K-Yj-rof" customClass="DarkBlueButton" customModule="MeeVan" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="168" width="334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="h5j-Zw-Irv"/>
@@ -249,7 +249,7 @@
         <!--Verify Code View Controller-->
         <scene sceneID="emb-pB-yHC">
             <objects>
-                <viewController id="llR-IG-Fb7" customClass="VerifyCodeViewController" customModule="MeeBus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="llR-IG-Fb7" customClass="VerifyCodeViewController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SGq-uS-qBd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -357,7 +357,11 @@
                         <viewLayoutGuide key="safeArea" id="FLR-1T-v1h"/>
                     </view>
                     <navigationItem key="navigationItem" id="j5N-3x-KCd">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="q9B-Mn-7y6"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="q9B-Mn-7y6">
+                            <connections>
+                                <action selector="cancelButtonDidTap:" destination="llR-IG-Fb7" id="1uF-x1-Kqy"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="otpTextField1" destination="GJs-Oe-XDO" id="0C2-Ns-KxJ"/>
@@ -374,6 +378,131 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FhM-tF-rbl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4952.1739130434789" y="762.72321428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K3i-3g-eq9">
+            <objects>
+                <viewController id="eTz-UH-Qtu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Om-DO-ufQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Qpm-ed-YT8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4cu-Ig-MOn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Oy-cg-u4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4890" y="1609"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="Fe4-o9-1W6">
+            <objects>
+                <viewController id="Pk5-7q-wwW" customClass="CreateProfileViewController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nkX-Xr-0NH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="i0P-Rx-CxO">
+                                <rect key="frame" x="120" y="128" width="174" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="icon-camera" translatesAutoresizingMaskIntoConstraints="NO" id="MzN-Z2-yJl">
+                                        <rect key="frame" x="0.0" y="0.0" width="174" height="100"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lt3-UB-mTX">
+                                <rect key="frame" x="0.0" y="298" width="414" height="564"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="N9Q-uR-WSo">
+                                        <rect key="frame" x="40" y="20" width="334" height="163"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="lrq-db-2BK">
+                                                <rect key="frame" x="0.0" y="0.0" width="334" height="66.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXP-Bg-g1R">
+                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gYI-CM-4vW" customClass="UnderlineTextField" customModule="MeeVan" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="26.5" width="334" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="K2Y-Az-nIq"/>
+                                                        </constraints>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="TPx-Qi-8lJ">
+                                                <rect key="frame" x="0.0" y="96.5" width="334" height="66.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbz-6i-Qiz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xcL-vX-355" customClass="UnderlineTextField" customModule="MeeVan" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="26.5" width="334" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="xHB-C2-er8"/>
+                                                        </constraints>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLL-9e-OPO" customClass="DarkBlueButton" customModule="MeeVan" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="484" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qwj-WQ-FRF"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="confirmButtonDidTap:" destination="Pk5-7q-wwW" eventType="touchUpInside" id="A9p-rW-e3S"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="N9Q-uR-WSo" firstAttribute="leading" secondItem="lt3-UB-mTX" secondAttribute="leading" constant="40" id="8BN-sC-Ov3"/>
+                                    <constraint firstAttribute="trailing" secondItem="XLL-9e-OPO" secondAttribute="trailing" constant="40" id="Edb-Ls-6k8"/>
+                                    <constraint firstAttribute="trailing" secondItem="N9Q-uR-WSo" secondAttribute="trailing" constant="40" id="Pk5-w1-RPD"/>
+                                    <constraint firstAttribute="bottom" secondItem="XLL-9e-OPO" secondAttribute="bottom" constant="40" id="R27-8l-9Yp"/>
+                                    <constraint firstItem="N9Q-uR-WSo" firstAttribute="top" secondItem="lt3-UB-mTX" secondAttribute="top" constant="20" id="bFH-AY-dG1"/>
+                                    <constraint firstItem="XLL-9e-OPO" firstAttribute="leading" secondItem="lt3-UB-mTX" secondAttribute="leading" constant="40" id="iew-dT-uRG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i0P-Rx-CxO" firstAttribute="leading" secondItem="Sth-lP-Jee" secondAttribute="leading" constant="120" id="8pS-Hr-988"/>
+                            <constraint firstItem="lt3-UB-mTX" firstAttribute="leading" secondItem="Sth-lP-Jee" secondAttribute="leading" id="HMU-DA-J8d"/>
+                            <constraint firstItem="Sth-lP-Jee" firstAttribute="bottom" secondItem="lt3-UB-mTX" secondAttribute="bottom" id="HRN-N5-3ac"/>
+                            <constraint firstItem="Sth-lP-Jee" firstAttribute="trailing" secondItem="lt3-UB-mTX" secondAttribute="trailing" id="ah8-yZ-AlJ"/>
+                            <constraint firstItem="i0P-Rx-CxO" firstAttribute="top" secondItem="Sth-lP-Jee" secondAttribute="top" constant="40" id="lWO-yk-jlA"/>
+                            <constraint firstItem="lt3-UB-mTX" firstAttribute="top" secondItem="i0P-Rx-CxO" secondAttribute="bottom" constant="70" id="myL-IF-lud"/>
+                            <constraint firstItem="Sth-lP-Jee" firstAttribute="trailing" secondItem="i0P-Rx-CxO" secondAttribute="trailing" constant="120" id="y21-RE-EYy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sth-lP-Jee"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="uXe-HN-BwR"/>
+                    <connections>
+                        <outlet property="confirmButton" destination="XLL-9e-OPO" id="C1c-7P-q7U"/>
+                        <outlet property="phoneNumberTextField" destination="xcL-vX-355" id="Pkv-HL-kWo"/>
+                        <outlet property="usernameTextField" destination="gYI-CM-4vW" id="jXs-Zk-bBa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3x-1s-6Tv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5517" y="39"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="N3W-Ta-94o">
@@ -446,11 +575,55 @@
             </objects>
             <point key="canvasLocation" x="4042.0289855072465" y="762.72321428571422"/>
         </scene>
+        <!--Create Profile Navigator Controller-->
+        <scene sceneID="9lZ-Wg-wy1">
+            <objects>
+                <navigationController storyboardIdentifier="CreateProfileNavigatorController" automaticallyAdjustsScrollViewInsets="NO" id="yBh-fg-Acv" customClass="CreateProfileNavigatorController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5od-6H-Plz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7nX-g8-8Pd">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Pk5-7q-wwW" kind="relationship" relationship="rootViewController" id="WBh-mu-J76"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41U-mx-yy7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4723" y="39"/>
+        </scene>
+        <!--Main Page Navigator Controller-->
+        <scene sceneID="Jv5-sE-Fwc">
+            <objects>
+                <navigationController storyboardIdentifier="MainPageNavigatorController" automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="GWh-xp-d8D" customClass="MainPageNavigatorController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mvm-oF-Bi7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pmv-Q2-1ga">
+                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="eTz-UH-Qtu" kind="relationship" relationship="rootViewController" id="4VC-Uc-Ka3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VU7-hX-2YD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3980" y="1608"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="icon-camera" width="100" height="100"/>
         <image name="logoMee" width="120" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BSX-7P-z0F"/>
+        <segue reference="4Rh-bi-nSF"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -11,9 +11,15 @@
 		3B0CC2EE23FB9C2A009DEB30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */; };
 		3B0CC2EF23FB9C2A009DEB30 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */; };
 		3B0CC2F123FB9C51009DEB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CC2F023FB9C51009DEB30 /* Main.storyboard */; };
-		3B0CC2F323FB9C60009DEB30 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2F223FB9C60009DEB30 /* Utilities.swift */; };
+		3B0CC2F323FB9C60009DEB30 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2F223FB9C60009DEB30 /* IconTextField.swift */; };
 		3B10633A23FC2FC400993BCD /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B10633923FC2FC400993BCD /* VerifyCodeViewController.swift */; };
 		3B1BF1D123FFB8B200D3A4E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */; };
+		3B2BA78B24016DDB0034B2CB /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */; };
+		3B2BA791240173800034B2CB /* CreateProfileNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA790240173800034B2CB /* CreateProfileNavigator.swift */; };
+		3B2BA793240173C20034B2CB /* MainPageNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA792240173C10034B2CB /* MainPageNavigator.swift */; };
+		3B2BA79524017CB00034B2CB /* UnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA79424017CB00034B2CB /* UnderlineTextField.swift */; };
+		3B2BA79824017F660034B2CB /* DarkBlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA79724017F660034B2CB /* DarkBlueButton.swift */; };
+		3B2BA79A240181DC0034B2CB /* YellowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA799240181DC0034B2CB /* YellowButton.swift */; };
 		3B701AFC240048B200F60231 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B701AFE240048B200F60231 /* Localizable.strings */; };
 		3B701B0124004FAD00F60231 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B701B0024004FAD00F60231 /* Localizable.swift */; };
 		3B701B03240056A400F60231 /* LanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B701B02240056A400F60231 /* LanguageService.swift */; };
@@ -27,9 +33,15 @@
 		3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		3B0CC2F023FB9C51009DEB30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		3B0CC2F223FB9C60009DEB30 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3B0CC2F223FB9C60009DEB30 /* IconTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
 		3B10633923FC2FC400993BCD /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		3B2BA790240173800034B2CB /* CreateProfileNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileNavigator.swift; sourceTree = "<group>"; };
+		3B2BA792240173C10034B2CB /* MainPageNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageNavigator.swift; sourceTree = "<group>"; };
+		3B2BA79424017CB00034B2CB /* UnderlineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextField.swift; sourceTree = "<group>"; };
+		3B2BA79724017F660034B2CB /* DarkBlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkBlueButton.swift; sourceTree = "<group>"; };
+		3B2BA799240181DC0034B2CB /* YellowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowButton.swift; sourceTree = "<group>"; };
 		3B701AF92400483400F60231 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		3B701AFD240048B200F60231 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3B701AFF240048B700F60231 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -40,7 +52,6 @@
 		3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBABBE123FAFA7D0004A9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BBABBE323FAFA7D0004A9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56C4A3BE70283847981F78E4 /* Pods_MeeBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeeBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6B65DC51915F599F30B664 /* Pods-MeeBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeBus.debug.xcconfig"; path = "Target Support Files/Pods-MeeBus/Pods-MeeBus.debug.xcconfig"; sourceTree = "<group>"; };
 		DD81151ECF073E24A2A0977E /* Pods-MeeBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeBus.release.xcconfig"; path = "Target Support Files/Pods-MeeBus/Pods-MeeBus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,13 +67,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B2BA78F240173600034B2CB /* Navigators */ = {
+			isa = PBXGroup;
+			children = (
+				3B2BA790240173800034B2CB /* CreateProfileNavigator.swift */,
+				3B2BA792240173C10034B2CB /* MainPageNavigator.swift */,
+			);
+			path = Navigators;
+			sourceTree = "<group>";
+		};
+		3B2BA79624017ED20034B2CB /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3B2BA79424017CB00034B2CB /* UnderlineTextField.swift */,
+				3B0CC2F223FB9C60009DEB30 /* IconTextField.swift */,
+				3B2BA79724017F660034B2CB /* DarkBlueButton.swift */,
+				3B2BA799240181DC0034B2CB /* YellowButton.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		3BBABBCB23FAFA7C0004A9E0 = {
 			isa = PBXGroup;
 			children = (
 				3BBABBD623FAFA7C0004A9E0 /* MeeVan */,
 				3BBABBD523FAFA7C0004A9E0 /* Products */,
 				42ED848A86DE01B1DB662C4B /* Pods */,
-				AA90A8A26D1577187E975001 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +107,8 @@
 		3BBABBD623FAFA7C0004A9E0 /* MeeVan */ = {
 			isa = PBXGroup;
 			children = (
+				3B2BA79624017ED20034B2CB /* Styles */,
+				3B2BA78F240173600034B2CB /* Navigators */,
 				3BBABBEA23FAFA910004A9E0 /* Helpers */,
 				3BBABBE923FAFA850004A9E0 /* Controllers */,
 				3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */,
@@ -97,6 +129,7 @@
 				3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */,
 				3B10633923FC2FC400993BCD /* VerifyCodeViewController.swift */,
 				3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */,
+				3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -104,7 +137,6 @@
 		3BBABBEA23FAFA910004A9E0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				3B0CC2F223FB9C60009DEB30 /* Utilities.swift */,
 				3B701B0024004FAD00F60231 /* Localizable.swift */,
 				3B701B02240056A400F60231 /* LanguageService.swift */,
 			);
@@ -118,14 +150,6 @@
 				DD81151ECF073E24A2A0977E /* Pods-MeeBus.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		AA90A8A26D1577187E975001 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				56C4A3BE70283847981F78E4 /* Pods_MeeBus.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,14 +251,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2BA79524017CB00034B2CB /* UnderlineTextField.swift in Sources */,
 				3B1BF1D123FFB8B200D3A4E2 /* LoginViewController.swift in Sources */,
-				3B0CC2F323FB9C60009DEB30 /* Utilities.swift in Sources */,
+				3B0CC2F323FB9C60009DEB30 /* IconTextField.swift in Sources */,
 				3B0CC2ED23FB9C2A009DEB30 /* SignUpViewController.swift in Sources */,
+				3B2BA793240173C20034B2CB /* MainPageNavigator.swift in Sources */,
 				3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */,
 				3B0CC2EF23FB9C2A009DEB30 /* FirstPageViewController.swift in Sources */,
+				3B2BA79824017F660034B2CB /* DarkBlueButton.swift in Sources */,
 				3B10633A23FC2FC400993BCD /* VerifyCodeViewController.swift in Sources */,
+				3B2BA791240173800034B2CB /* CreateProfileNavigator.swift in Sources */,
 				3B701B0124004FAD00F60231 /* Localizable.swift in Sources */,
 				3B701B03240056A400F60231 /* LanguageService.swift in Sources */,
+				3B2BA78B24016DDB0034B2CB /* CreateProfileViewController.swift in Sources */,
+				3B2BA79A240181DC0034B2CB /* YellowButton.swift in Sources */,
 				3B0CC2EE23FB9C2A009DEB30 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

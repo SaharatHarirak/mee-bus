@@ -96,6 +96,7 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
             }
             if textField == otpTextField6 {
                 otpTextField6.resignFirstResponder()
+                checkPreviousPage()
             }
             
             textField.text = string
@@ -126,6 +127,18 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
             return false
         }
         return true
+    }
+    
+    private func checkPreviousPage() {
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        
+        if previousPage == "SignUp" {
+            guard let vc = mainStoryboard.instantiateViewController(withIdentifier: "CreateProfileNavigatorController") as? CreateProfileNavigatorController else { return }
+            present(vc, animated: true, completion: nil)
+        } else {
+            guard let vc = mainStoryboard.instantiateViewController(withIdentifier: "MainPageNavigatorController") as? MainPageNavigatorController else { return }
+            present(vc, animated: true, completion: nil)
+        }
     }
     
     

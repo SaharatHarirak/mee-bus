@@ -13,7 +13,6 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var phoneNumberTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        Utilities.DarkBlueButton(signUpButton)
         setupLanguage()
     }
 

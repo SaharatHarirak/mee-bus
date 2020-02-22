@@ -17,8 +17,6 @@ class FirstPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Utilities.YellowButton(registerButton)
-        Utilities.DarkBlueButton(loginButton)
         logoImage.image = UIImage(named: "logoMee")
         setupLanguage()
         
