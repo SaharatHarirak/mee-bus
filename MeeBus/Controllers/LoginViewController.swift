@@ -18,4 +18,18 @@ class LoginViewController: UIViewController {
         Utilities.iconTextField(phoneNumberTextField, #imageLiteral(resourceName: "icon-phone"))
     }
     
+    @IBAction func cancelButtonDidTap(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "VerifyCodeSegue" {
+            if let nav = segue.destination as? UINavigationController,
+                let controller = nav.topViewController as? VerifyCodeViewController {
+                guard let phoneNumber = phoneNumberTextField.text else { return }
+                controller.phoneNumber = phoneNumber
+                controller.previousPage = "Login"
+            }
+        }
+    }
 }

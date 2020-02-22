@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  MeeBus
+
+  Created by CherChamp on 22/2/2563 BE.
+  Copyright © 2563 MeeBus. All rights reserved.
+*/
+"Or" = "หรือ";
+"Signup" = "สมัครสมาชิก";
+"Cancel" = "ยกเลิก";
+"Language" = "ภาษาไทย";
+"Login" = "เข้าสู่ระบบ";
+"Register" = "สมัครสมาชิก";
+"fullname" = "ชื่อ - นามสกุล";
+"phonenumber" = "เบอร์โทรศัพท์";

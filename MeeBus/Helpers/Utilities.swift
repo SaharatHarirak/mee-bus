@@ -11,7 +11,7 @@ class Utilities {
     static func YellowButton(_ button: UIButton) {
         button.backgroundColor = UIColor(red: 1, green: 217/255, blue: 37/255, alpha: 1)
         button.layer.cornerRadius = 7.5
-        button.tintColor = UIColor.white
+        button.tintColor = UIColor.black
     }
     
     static func DarkBlueButton(_ button: UIButton) {

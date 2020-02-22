@@ -9,16 +9,26 @@
 import UIKit
 
 class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
+    
+    var phoneNumber: String = ""
+    var previousPage: String = ""
+    var timer = Timer()
+    var seconds = 5
 
+    @IBOutlet weak var phoneNumberLabel: UILabel!
     @IBOutlet weak var otpTextField1: UITextField!
     @IBOutlet weak var otpTextField2: UITextField!
     @IBOutlet weak var otpTextField3: UITextField!
     @IBOutlet weak var otpTextField4: UITextField!
     @IBOutlet weak var otpTextField5: UITextField!
     @IBOutlet weak var otpTextField6: UITextField!
+    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var sendAgainButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        phoneNumberLabel.text = phoneNumber
+        timerLabel.text = String(seconds)
         otpTextField1.backgroundColor = UIColor.clear
         otpTextField2.backgroundColor = UIColor.clear
         otpTextField3.backgroundColor = UIColor.clear
@@ -39,6 +49,24 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
         otpTextField6.delegate = self
         
         otpTextField1.becomeFirstResponder()
+        timerLabel.text = String(seconds) + " Seconds"
+        startCounter()
+        sendAgainButton.isHidden = true
+        
+    }
+    
+    func startCounter() {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(VerifyCodeViewController.countTime), userInfo: nil, repeats: true)
+    }
+
+    @objc func countTime() {
+        seconds -= 1
+        timerLabel.text = String(seconds) + " Seconds"
+        if (seconds == 0) {
+            timer.invalidate()
+            sendAgainButton.isHidden = false
+            timerLabel.isHidden = true
+        }
     }
     
     func addBottomBorderTo(textField: UITextField) {
@@ -101,6 +129,13 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
     }
     
     
+    @IBAction func sendAgainButtonDidTap(_ sender: Any) {
+        seconds = 5
+        timerLabel.text = String(seconds) + " Seconds"
+        timerLabel.isHidden = false
+        sendAgainButton.isHidden = true
+        startCounter()
+    }
     @IBAction func cancelButtonDidTap(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
