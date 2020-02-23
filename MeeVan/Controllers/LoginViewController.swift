@@ -12,8 +12,10 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var phoneNumberTextField: UITextField!
+    @IBOutlet weak var errorLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        errorLabel.isHidden = true
         IconTextField.iconTextField(phoneNumberTextField, #imageLiteral(resourceName: "icon-phone"))
     }
     
@@ -21,14 +23,15 @@ class LoginViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "VerifyCodeSegue" {
-            if let nav = segue.destination as? UINavigationController,
-                let controller = nav.topViewController as? VerifyCodeViewController {
-                guard let phoneNumber = phoneNumberTextField.text else { return }
-                controller.phoneNumber = phoneNumber
-                controller.previousPage = "Login"
-            }
+    @IBAction func loginButtonDidTap(_ sender: Any) {
+        let verifyCodeVC = storyboard?.instantiateViewController(withIdentifier: "VerifyCodeViewController") as! VerifyCodeViewController
+        guard !phoneNumberTextField.text!.isEmpty, let phoneNumber = phoneNumberTextField.text else {
+            errorLabel.isHidden = false
+            return
         }
+        errorLabel.isHidden = true
+        verifyCodeVC.phoneNumber = phoneNumber
+        verifyCodeVC.previousPage = "Login"
+        present(verifyCodeVC, animated: true, completion: nil)
     }
 }

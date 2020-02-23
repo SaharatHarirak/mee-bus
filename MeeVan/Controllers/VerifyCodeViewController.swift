@@ -14,7 +14,9 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
     var previousPage: String = ""
     var timer = Timer()
     var seconds = 5
+    var verifyCode: String = ""
 
+    @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var phoneNumberLabel: UILabel!
     @IBOutlet weak var otpTextField1: UITextField!
     @IBOutlet weak var otpTextField2: UITextField!
@@ -28,6 +30,7 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         phoneNumberLabel.text = phoneNumber
+        errorLabel.isHidden = true
         timerLabel.text = String(seconds)
         otpTextField1.backgroundColor = UIColor.clear
         otpTextField2.backgroundColor = UIColor.clear
@@ -96,10 +99,11 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
             }
             if textField == otpTextField6 {
                 otpTextField6.resignFirstResponder()
-                checkPreviousPage()
+                checkVerifyCode(code: verifyCode + string)
             }
             
             textField.text = string
+            verifyCode = verifyCode + textField.text!
             return false
         } else if ((textField.text?.count)! >= 1) && (string.count == 0) {
             if textField == otpTextField2 {
@@ -116,17 +120,35 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
             }
             if textField == otpTextField6 {
                 otpTextField5.becomeFirstResponder()
+                verifyCode = verifyCode.replacingOccurrences(of: textField.text!, with: "")
             }
             if textField == otpTextField1 {
                 otpTextField1.resignFirstResponder()
+                otpTextField1.becomeFirstResponder()
+                errorLabel.isHidden = true
+                verifyCode = verifyCode.replacingOccurrences(of: textField.text!, with: "")
             }
             textField.text = ""
+            verifyCode = verifyCode.replacingOccurrences(of: textField.text!, with: "")
             return false
         } else if ((textField.text?.count)! >= 1) {
             textField.text = string
             return false
         }
         return true
+    }
+    
+    private func checkVerifyCode(code: String) {
+        
+        // Wait Auth Verify
+        if code == "111111" {
+            errorLabel.isHidden = true
+            checkPreviousPage()
+        } else {
+            errorLabel.isHidden = false
+            verifyCode = ""
+            otpTextField6.becomeFirstResponder()
+        }
     }
     
     private func checkPreviousPage() {
@@ -136,8 +158,8 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
             guard let vc = mainStoryboard.instantiateViewController(withIdentifier: "CreateProfileNavigatorController") as? CreateProfileNavigatorController else { return }
             present(vc, animated: true, completion: nil)
         } else {
-            guard let vc = mainStoryboard.instantiateViewController(withIdentifier: "MainPageNavigatorController") as? MainPageNavigatorController else { return }
-            present(vc, animated: true, completion: nil)
+            let mainTabBar = storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as! MainTabBarController
+            present(mainTabBar, animated: true, completion: nil)
         }
     }
     
@@ -150,6 +172,7 @@ class VerifyCodeViewController: UIViewController, UITextFieldDelegate {
         startCounter()
     }
     @IBAction func cancelButtonDidTap(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        let firstPageVC = storyboard?.instantiateViewController(withIdentifier: "FirstPageViewController") as! FirstPageViewController
+        present(firstPageVC, animated: false, completion: nil)
     }
 }

@@ -20,10 +20,8 @@ class CreateProfileViewController: UIViewController {
     }
     
     @IBAction func confirmButtonDidTap(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        guard let vc = storyboard.instantiateViewController(withIdentifier: "MainPageNavigatorController") as? MainPageNavigatorController else { return }
-        vc.modalTransitionStyle = .crossDissolve
-        present(vc, animated: false, completion: nil)
+        let mainTabBar = storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as! MainTabBarController
+        present(mainTabBar, animated: false, completion: nil)
     }
     
 }

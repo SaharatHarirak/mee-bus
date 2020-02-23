@@ -16,10 +16,11 @@
 		3B1BF1D123FFB8B200D3A4E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */; };
 		3B2BA78B24016DDB0034B2CB /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */; };
 		3B2BA791240173800034B2CB /* CreateProfileNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA790240173800034B2CB /* CreateProfileNavigator.swift */; };
-		3B2BA793240173C20034B2CB /* MainPageNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA792240173C10034B2CB /* MainPageNavigator.swift */; };
 		3B2BA79524017CB00034B2CB /* UnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA79424017CB00034B2CB /* UnderlineTextField.swift */; };
 		3B2BA79824017F660034B2CB /* DarkBlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA79724017F660034B2CB /* DarkBlueButton.swift */; };
 		3B2BA79A240181DC0034B2CB /* YellowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA799240181DC0034B2CB /* YellowButton.swift */; };
+		3B360E0924024F6A0095D615 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B360E0824024F6A0095D615 /* MainTabBarController.swift */; };
+		3B360E0B2402524D0095D615 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B360E0A2402524D0095D615 /* SearchViewController.swift */; };
 		3B701AFC240048B200F60231 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B701AFE240048B200F60231 /* Localizable.strings */; };
 		3B701B0124004FAD00F60231 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B701B0024004FAD00F60231 /* Localizable.swift */; };
 		3B701B03240056A400F60231 /* LanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B701B02240056A400F60231 /* LanguageService.swift */; };
@@ -41,10 +42,11 @@
 		3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
 		3B2BA790240173800034B2CB /* CreateProfileNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileNavigator.swift; sourceTree = "<group>"; };
-		3B2BA792240173C10034B2CB /* MainPageNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageNavigator.swift; sourceTree = "<group>"; };
 		3B2BA79424017CB00034B2CB /* UnderlineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextField.swift; sourceTree = "<group>"; };
 		3B2BA79724017F660034B2CB /* DarkBlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkBlueButton.swift; sourceTree = "<group>"; };
 		3B2BA799240181DC0034B2CB /* YellowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowButton.swift; sourceTree = "<group>"; };
+		3B360E0824024F6A0095D615 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		3B360E0A2402524D0095D615 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3B701AF92400483400F60231 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		3B701AFD240048B200F60231 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3B701AFF240048B700F60231 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -78,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				3B2BA790240173800034B2CB /* CreateProfileNavigator.swift */,
-				3B2BA792240173C10034B2CB /* MainPageNavigator.swift */,
 			);
 			path = Navigators;
 			sourceTree = "<group>";
@@ -90,6 +91,7 @@
 				3B0CC2F223FB9C60009DEB30 /* IconTextField.swift */,
 				3B2BA79724017F660034B2CB /* DarkBlueButton.swift */,
 				3B2BA799240181DC0034B2CB /* YellowButton.swift */,
+				3B360E0824024F6A0095D615 /* MainTabBarController.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -139,6 +141,7 @@
 				3B10633923FC2FC400993BCD /* VerifyCodeViewController.swift */,
 				3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */,
 				3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */,
+				3B360E0A2402524D0095D615 /* SearchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,13 +300,14 @@
 				3B2BA79524017CB00034B2CB /* UnderlineTextField.swift in Sources */,
 				3B1BF1D123FFB8B200D3A4E2 /* LoginViewController.swift in Sources */,
 				3B0CC2F323FB9C60009DEB30 /* IconTextField.swift in Sources */,
+				3B360E0B2402524D0095D615 /* SearchViewController.swift in Sources */,
 				3B0CC2ED23FB9C2A009DEB30 /* SignUpViewController.swift in Sources */,
-				3B2BA793240173C20034B2CB /* MainPageNavigator.swift in Sources */,
 				3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */,
 				3B0CC2EF23FB9C2A009DEB30 /* FirstPageViewController.swift in Sources */,
 				3B2BA79824017F660034B2CB /* DarkBlueButton.swift in Sources */,
 				3B10633A23FC2FC400993BCD /* VerifyCodeViewController.swift in Sources */,
 				3B2BA791240173800034B2CB /* CreateProfileNavigator.swift in Sources */,
+				3B360E0924024F6A0095D615 /* MainTabBarController.swift in Sources */,
 				3B701B0124004FAD00F60231 /* Localizable.swift in Sources */,
 				3B701B03240056A400F60231 /* LanguageService.swift in Sources */,
 				3B2BA78B24016DDB0034B2CB /* CreateProfileViewController.swift in Sources */,
