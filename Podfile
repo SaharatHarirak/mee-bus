@@ -1,10 +1,12 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '11.0'
 
-target 'MeeBus' do
+target 'MeeVan' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for MeeBus
-#    pod 'Firebase'
+  # Pods for MeeVan
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
 end
