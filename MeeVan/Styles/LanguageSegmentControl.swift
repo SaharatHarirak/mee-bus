@@ -10,9 +10,10 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class LanguageSegmentControl: UIView {
+class LanguageSegmentControl: UIControl {
     var buttons = [UIButton]()
     var selector: UIView!
+    var segmentIndex = CurrentLanguage.language == "th" ? 0 : 1
     
     @IBInspectable
     var borderWidth: CGFloat = 0 {
@@ -95,7 +96,7 @@ class LanguageSegmentControl: UIView {
     @objc private func buttonDidTap(button: UIButton) {
         for (buttonIndex, btn) in buttons.enumerated() {
             btn.setTitleColor(textColor, for: .normal)
-            
+            segmentIndex = buttonIndex
             if btn == button {
                 UIView.animate(withDuration: 0.3) {
                     let selectorStartPosition = self.frame.width/CGFloat(self.buttons.count) * CGFloat(buttonIndex)
@@ -104,5 +105,6 @@ class LanguageSegmentControl: UIView {
                 btn.setTitleColor(selectorTextColor, for: .normal)
             }
         }
+        sendActions(for: .valueChanged)
     }
 }

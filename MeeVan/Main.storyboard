@@ -616,34 +616,34 @@
         <!--Item-->
         <scene sceneID="ZUy-FS-K95">
             <objects>
-                <viewController id="u5g-iz-5AA" customClass="SettingViewController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="u5g-iz-5AA" customClass="ProfileViewController" customModule="MeeVan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uoo-AM-BzF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="RUb-G1-pbW">
-                                <rect key="frame" x="40" y="84" width="334" height="85"/>
+                                <rect key="frame" x="40" y="84" width="334" height="107"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p0e-L1-Lpn">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="85"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="107"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dEZ-0b-DOc">
-                                        <rect key="frame" x="94" y="0.0" width="240" height="85"/>
+                                        <rect key="frame" x="94" y="0.0" width="240" height="107"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tV-ry-ucx">
-                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="23.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="45.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYv-KC-wKx">
-                                                <rect key="frame" x="0.0" y="31.5" width="115" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="53.5" width="115" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Pay-yZ-Mdf">
-                                                <rect key="frame" x="0.0" y="60" width="165" height="25"/>
+                                                <rect key="frame" x="0.0" y="82" width="165" height="25"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qVE-TM-SRL" customClass="LanguageSegmentControl" customModule="MeeVan" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="165" height="25"/>
@@ -666,6 +666,9 @@
                                                                 <color key="value" cocoaTouchSystemColor="darkTextColor"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="languageCustomSegmentControlValueChange:" destination="u5g-iz-5AA" eventType="valueChanged" id="QfX-6o-AfR"/>
+                                                        </connections>
                                                     </view>
                                                 </subviews>
                                             </stackView>
