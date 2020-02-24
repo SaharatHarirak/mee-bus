@@ -12,6 +12,8 @@
 		3B0CC2EF23FB9C2A009DEB30 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */; };
 		3B0CC2F123FB9C51009DEB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CC2F023FB9C51009DEB30 /* Main.storyboard */; };
 		3B0CC2F323FB9C60009DEB30 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2F223FB9C60009DEB30 /* IconTextField.swift */; };
+		3B1005942402D15B001029B1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1005932402D15B001029B1 /* SettingViewController.swift */; };
+		3B1005962402DB5A001029B1 /* LanguageSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1005952402DB5A001029B1 /* LanguageSegmentControl.swift */; };
 		3B10633A23FC2FC400993BCD /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B10633923FC2FC400993BCD /* VerifyCodeViewController.swift */; };
 		3B1BF1D123FFB8B200D3A4E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */; };
 		3B2BA78B24016DDB0034B2CB /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */; };
@@ -38,6 +40,8 @@
 		3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		3B0CC2F023FB9C51009DEB30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3B0CC2F223FB9C60009DEB30 /* IconTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
+		3B1005932402D15B001029B1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3B1005952402DB5A001029B1 /* LanguageSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSegmentControl.swift; sourceTree = "<group>"; };
 		3B10633923FC2FC400993BCD /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3B2BA78A24016DDB0034B2CB /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 				3B2BA79724017F660034B2CB /* DarkBlueButton.swift */,
 				3B2BA799240181DC0034B2CB /* YellowButton.swift */,
 				3B360E0824024F6A0095D615 /* MainTabBarController.swift */,
+				3B1005952402DB5A001029B1 /* LanguageSegmentControl.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 		3BBABBE923FAFA850004A9E0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3B1005932402D15B001029B1 /* SettingViewController.swift */,
 				3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */,
 				3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */,
 				3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */,
@@ -302,9 +308,11 @@
 				3B0CC2F323FB9C60009DEB30 /* IconTextField.swift in Sources */,
 				3B360E0B2402524D0095D615 /* SearchViewController.swift in Sources */,
 				3B0CC2ED23FB9C2A009DEB30 /* SignUpViewController.swift in Sources */,
+				3B1005942402D15B001029B1 /* SettingViewController.swift in Sources */,
 				3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */,
 				3B0CC2EF23FB9C2A009DEB30 /* FirstPageViewController.swift in Sources */,
 				3B2BA79824017F660034B2CB /* DarkBlueButton.swift in Sources */,
+				3B1005962402DB5A001029B1 /* LanguageSegmentControl.swift in Sources */,
 				3B10633A23FC2FC400993BCD /* VerifyCodeViewController.swift in Sources */,
 				3B2BA791240173800034B2CB /* CreateProfileNavigator.swift in Sources */,
 				3B360E0924024F6A0095D615 /* MainTabBarController.swift in Sources */,
