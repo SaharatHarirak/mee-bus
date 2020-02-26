@@ -14,7 +14,7 @@ class YellowButton: UIButton {
         super.awakeFromNib()
 
         self.backgroundColor = UIColor(red: 1, green: 217/255, blue: 37/255, alpha: 1)
-        self.layer.cornerRadius = 7.5
+        self.layer.cornerRadius = frame.height / 2
         self.tintColor = UIColor.black
     }
 

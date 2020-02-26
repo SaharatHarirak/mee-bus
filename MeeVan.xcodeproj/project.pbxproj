@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B0AD29D2403B5ED00B57081 /* ProfileTabsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0AD29C2403B5ED00B57081 /* ProfileTabsModel.swift */; };
+		3B0AD2A22403E05F00B57081 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0AD2A12403E05F00B57081 /* NotificationViewController.swift */; };
 		3B0CC2ED23FB9C2A009DEB30 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */; };
 		3B0CC2EE23FB9C2A009DEB30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */; };
 		3B0CC2EF23FB9C2A009DEB30 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */; };
@@ -25,7 +27,11 @@
 		3B360E0B2402524D0095D615 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B360E0A2402524D0095D615 /* SearchViewController.swift */; };
 		3B701AFC240048B200F60231 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B701AFE240048B200F60231 /* Localizable.strings */; };
 		3B701B0124004FAD00F60231 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B701B0024004FAD00F60231 /* Localizable.swift */; };
-		3B701B03240056A400F60231 /* LanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B701B02240056A400F60231 /* LanguageService.swift */; };
+		3B701B03240056A400F60231 /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B701B02240056A400F60231 /* LanguageModel.swift */; };
+		3BAD7C3E240559B900DFFEDD /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAD7C3D240559B900DFFEDD /* Setting.storyboard */; };
+		3BAD7C402405687000DFFEDD /* SettingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD7C3F2405687000DFFEDD /* SettingNavigator.swift */; };
+		3BAD7C43240571A500DFFEDD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD7C42240571A500DFFEDD /* SettingViewController.swift */; };
+		3BAD7C4624057AF100DFFEDD /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD7C4524057AF100DFFEDD /* NotificationCell.swift */; };
 		3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */; };
 		3BBABBDF23FAFA7D0004A9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */; };
 		3BBABBE223FAFA7D0004A9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABBE023FAFA7D0004A9E0 /* LaunchScreen.storyboard */; };
@@ -35,12 +41,14 @@
 
 /* Begin PBXFileReference section */
 		1D3EA5D5F2B946FCA3C67832 /* Pods-MeeVan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeVan.debug.xcconfig"; path = "Target Support Files/Pods-MeeVan/Pods-MeeVan.debug.xcconfig"; sourceTree = "<group>"; };
+		3B0AD29C2403B5ED00B57081 /* ProfileTabsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsModel.swift; sourceTree = "<group>"; };
+		3B0AD2A12403E05F00B57081 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		3B0CC2F023FB9C51009DEB30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3B0CC2F223FB9C60009DEB30 /* IconTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
-		3B1005932402D15B001029B1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3B1005932402D15B001029B1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = MeeVan/Controllers/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
 		3B1005952402DB5A001029B1 /* LanguageSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSegmentControl.swift; sourceTree = "<group>"; };
 		3B10633923FC2FC400993BCD /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		3B1BF1D023FFB8B200D3A4E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +63,11 @@
 		3B701AFD240048B200F60231 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3B701AFF240048B700F60231 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3B701B0024004FAD00F60231 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
-		3B701B02240056A400F60231 /* LanguageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageService.swift; sourceTree = "<group>"; };
+		3B701B02240056A400F60231 /* LanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
+		3BAD7C3D240559B900DFFEDD /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		3BAD7C3F2405687000DFFEDD /* SettingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingNavigator.swift; sourceTree = "<group>"; };
+		3BAD7C42240571A500DFFEDD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3BAD7C4524057AF100DFFEDD /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		3BBABBD423FAFA7C0004A9E0 /* MeeVan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeeVan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBABBD723FAFA7C0004A9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BBABBDE23FAFA7D0004A9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,10 +92,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B0AD29A2403B44300B57081 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B701B02240056A400F60231 /* LanguageModel.swift */,
+				3B0AD29C2403B5ED00B57081 /* ProfileTabsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3B2BA78F240173600034B2CB /* Navigators */ = {
 			isa = PBXGroup;
 			children = (
 				3B2BA790240173800034B2CB /* CreateProfileNavigator.swift */,
+				3BAD7C3F2405687000DFFEDD /* SettingNavigator.swift */,
 			);
 			path = Navigators;
 			sourceTree = "<group>";
@@ -99,6 +121,32 @@
 				3B1005952402DB5A001029B1 /* LanguageSegmentControl.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		3BAD7C3C2405598100DFFEDD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD7C3D240559B900DFFEDD /* Setting.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3BAD7C412405718500DFFEDD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3B1005932402D15B001029B1 /* ProfileViewController.swift */,
+				3B0AD2A12403E05F00B57081 /* NotificationViewController.swift */,
+				3BAD7C42240571A500DFFEDD /* SettingViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3BAD7C4424057AC500DFFEDD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD7C4524057AF100DFFEDD /* NotificationCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		3BBABBCB23FAFA7C0004A9E0 = {
@@ -122,6 +170,9 @@
 		3BBABBD623FAFA7C0004A9E0 /* MeeVan */ = {
 			isa = PBXGroup;
 			children = (
+				3BAD7C4424057AC500DFFEDD /* Cells */,
+				3BAD7C3C2405598100DFFEDD /* Storyboards */,
+				3B0AD29A2403B44300B57081 /* Models */,
 				3B2BA79624017ED20034B2CB /* Styles */,
 				3B2BA78F240173600034B2CB /* Navigators */,
 				3BBABBEA23FAFA910004A9E0 /* Helpers */,
@@ -140,7 +191,7 @@
 		3BBABBE923FAFA850004A9E0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3B1005932402D15B001029B1 /* ProfileViewController.swift */,
+				3BAD7C412405718500DFFEDD /* Profile */,
 				3B0CC2EB23FB9C2A009DEB30 /* HomeViewController.swift */,
 				3B0CC2EC23FB9C2A009DEB30 /* FirstPageViewController.swift */,
 				3B0CC2EA23FB9C2A009DEB30 /* SignUpViewController.swift */,
@@ -156,7 +207,6 @@
 			isa = PBXGroup;
 			children = (
 				3B701B0024004FAD00F60231 /* Localizable.swift */,
-				3B701B02240056A400F60231 /* LanguageService.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -246,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAD7C3E240559B900DFFEDD /* Setting.storyboard in Resources */,
 				3BBABBE223FAFA7D0004A9E0 /* LaunchScreen.storyboard in Resources */,
 				3B701AFC240048B200F60231 /* Localizable.strings in Resources */,
 				3BE8EAC924019F25007F1244 /* GoogleService-Info.plist in Resources */,
@@ -304,6 +355,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B2BA79524017CB00034B2CB /* UnderlineTextField.swift in Sources */,
+				3BAD7C43240571A500DFFEDD /* SettingViewController.swift in Sources */,
+				3BAD7C4624057AF100DFFEDD /* NotificationCell.swift in Sources */,
+				3B0AD29D2403B5ED00B57081 /* ProfileTabsModel.swift in Sources */,
 				3B1BF1D123FFB8B200D3A4E2 /* LoginViewController.swift in Sources */,
 				3B0CC2F323FB9C60009DEB30 /* IconTextField.swift in Sources */,
 				3B360E0B2402524D0095D615 /* SearchViewController.swift in Sources */,
@@ -312,12 +366,14 @@
 				3BBABBD823FAFA7C0004A9E0 /* AppDelegate.swift in Sources */,
 				3B0CC2EF23FB9C2A009DEB30 /* FirstPageViewController.swift in Sources */,
 				3B2BA79824017F660034B2CB /* DarkBlueButton.swift in Sources */,
+				3B0AD2A22403E05F00B57081 /* NotificationViewController.swift in Sources */,
 				3B1005962402DB5A001029B1 /* LanguageSegmentControl.swift in Sources */,
 				3B10633A23FC2FC400993BCD /* VerifyCodeViewController.swift in Sources */,
 				3B2BA791240173800034B2CB /* CreateProfileNavigator.swift in Sources */,
 				3B360E0924024F6A0095D615 /* MainTabBarController.swift in Sources */,
+				3BAD7C402405687000DFFEDD /* SettingNavigator.swift in Sources */,
 				3B701B0124004FAD00F60231 /* Localizable.swift in Sources */,
-				3B701B03240056A400F60231 /* LanguageService.swift in Sources */,
+				3B701B03240056A400F60231 /* LanguageModel.swift in Sources */,
 				3B2BA78B24016DDB0034B2CB /* CreateProfileViewController.swift in Sources */,
 				3B2BA79A240181DC0034B2CB /* YellowButton.swift in Sources */,
 				3B0CC2EE23FB9C2A009DEB30 /* HomeViewController.swift in Sources */,

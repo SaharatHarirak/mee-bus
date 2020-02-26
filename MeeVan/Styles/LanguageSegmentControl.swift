@@ -96,13 +96,14 @@ class LanguageSegmentControl: UIControl {
     @objc private func buttonDidTap(button: UIButton) {
         for (buttonIndex, btn) in buttons.enumerated() {
             btn.setTitleColor(textColor, for: .normal)
-            segmentIndex = buttonIndex
+            
             if btn == button {
                 UIView.animate(withDuration: 0.3) {
                     let selectorStartPosition = self.frame.width/CGFloat(self.buttons.count) * CGFloat(buttonIndex)
                     self.selector.frame.origin.x = selectorStartPosition
                 }
                 btn.setTitleColor(selectorTextColor, for: .normal)
+                segmentIndex = buttonIndex
             }
         }
         sendActions(for: .valueChanged)

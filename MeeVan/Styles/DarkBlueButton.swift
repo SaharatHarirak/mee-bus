@@ -11,7 +11,7 @@ import UIKit
 class DarkBlueButton: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.layer.cornerRadius = 7.5
+        self.layer.cornerRadius = frame.height / 2
         self.tintColor = UIColor.white
         self.backgroundColor = UIColor(red: 23/255, green: 56/255, blue: 100/255, alpha: 1)
 
